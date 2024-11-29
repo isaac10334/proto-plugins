@@ -1,0 +1,13 @@
+{
+    "id": "conan",
+    "locator": "https://raw.githubusercontent.com/isaac10334/conan-plugin-proto/main/plugin.toml",
+    "format": "toml",
+    "name": "Conan",
+    "description": "Conan is an open-source C and C++ package manager.",
+    "author": "isaac10334",
+    "homepageUrl": "https://conan.io/ ",
+    "repositoryUrl": "https://github.com/isaac10334/conan-plugin-proto/",
+    "bins": [
+      "conan"
+    ]
+}

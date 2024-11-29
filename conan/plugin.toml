@@ -1,0 +1,19 @@
+name = "Conan"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/conan-io/conan"
+
+[platform]
+[platform.linux]
+checksum-file = "{version}-SHA-256.txt"
+download-file = "conan-{version}-linux-{arch}.tgz"
+
+[platform.macos]
+download-file = "conan-2.9.3-macos-{arch}.tgz"
+
+[platform.windows]
+download-file = "conan-2.9.3-windows-x86_64.zip"
+
+[install]
+download-url = "https://github.com/conan-io/conan/releases/download/v{version}/{download_file}"
